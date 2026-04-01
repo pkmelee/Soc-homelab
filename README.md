@@ -18,7 +18,7 @@ Simulate network reconnaissance against a Windows host and analyze how firewall 
 ## 🔍 Activity Performed
 
 ### Network Scan with Nmap
-**Command used**
+**Command used:**
 bash
 nmap 192.168.56.101
 
