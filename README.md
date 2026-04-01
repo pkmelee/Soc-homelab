@@ -48,7 +48,7 @@ This demonstrates how reconnaissance is performed as an initial step in cyber at
 
 ## 📸 Screenshots
 
-(Add screenshots here of your Nmap scan and lab setup)
+![Nmap Scan](screenshots/nmap-scan.png)
 
 ---
 
