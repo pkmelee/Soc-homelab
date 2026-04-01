@@ -3,7 +3,7 @@ Hands-on SOC homelab simulating attacker and victim environments using Kali Linu
 # 🛡️ SOC Homelab Project
 
 ## 📌 Overview
-Built a virtualized cybersecurity lab to simulate real-world attack and defense scenarios using VirtualBox.
+Built a virtualized cybersecurity lab in VirtualBox to simulate attacker and victim environments and practice foundational SOC analyst skills.
 
 ## 🖥️ Lab Setup
 - Virtualization: VirtualBox  
@@ -11,15 +11,16 @@ Built a virtualized cybersecurity lab to simulate real-world attack and defense 
 - Victim Machine: Windows 11  
 
 ## 🎯 Objective
-To simulate network reconnaissance and identify exposed services on a target system.
+Simulate network reconnaissance against a Windows host and analyze how firewall protections affect scan results.
 
 ---
 
 ## 🔍 Activity Performed
 
-### Network Scan using Nmap
-
-Command used: nmap 192.168.56.101
+### Network Scan with Nmap
+**Command used:**
+```bash
+nmap 192.168.56.101
 
 ### Findings
 - All scanned ports were in filtered/no-response state
@@ -30,21 +31,19 @@ Command used: nmap 192.168.56.101
 
 ## 🧠 Analysis
 
-The Nmap scan indicated that all ports were in a filtered/no-response state.
+The Nmap scan showed that the target host was reachable, but the scanned ports did not return normal responses. This indicates that firewall protections are likely preventing external visibility into exposed services.
 
-This suggests that the Windows host is protected by a firewall, preventing external visibility of services.
-
-This behavior demonstrates how defensive controls can limit reconnaissance efforts and reduce an attacker's ability to identify exposed services.
+This demonstrates an important defensive concept: even when a system is online, security controls can reduce an attacker's ability to identify open ports and available services during reconnaissance.
 
 ---
 
 ## 🚀 Skills Demonstrated
 
-- Network reconnaissance  
-- Port scanning  
-- Service enumeration  
-- Virtual lab setup  
-- Basic security analysis  
+- Virtual lab setup
+- Network reconnaissance
+- Port scanning with Nmap
+- Basic interpretation of scan results
+- Understanding firewall impact on network visibility
 
 ---
 
@@ -56,6 +55,7 @@ This behavior demonstrates how defensive controls can limit reconnaissance effor
 
 ## 🔮 Future Improvements
 
-- Implement system monitoring using Sysmon  
-- Integrate SIEM tool (Splunk) for log analysis  
-- Detect and analyze attack activity in real time  
+- Install Sysmon on the Windows host for endpoint logging
+- Deploy Splunk for centralized log collection and analysis
+- Re-run reconnaissance activity and investigate resulting logs
+- Create alerting and detection notes for observed behavior
