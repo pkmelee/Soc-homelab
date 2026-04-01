@@ -54,7 +54,8 @@ This demonstrates an important defensive concept: even when a system is online, 
 - Re-run reconnaissance activity and investigate resulting logs
 - Create alerting and detection notes for observed behavior
 
-🛡️ Sysmon Log Analysis Project
+
+🛡️Sysmon Log Analysis Project
 📌 Overview
 
 Configured Sysmon on a Windows virtual machine to capture detailed system activity and analyze logs generated from user actions.
