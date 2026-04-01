@@ -47,12 +47,6 @@ This demonstrates an important defensive concept: even when a system is online, 
 
 ---
 
-## 📸 Screenshots
-
-
-
----
-
 ## 🔮 Future Improvements
 
 - Install Sysmon on the Windows host for endpoint logging
