@@ -25,8 +25,7 @@ Command used: nmap 192.168.56.101
 - All scanned ports were in filtered/no-response state
 - Indicates presence of firewall protections on the Windows host
 ### Screenshot
-
-![Nmap Scan](screenshots/nmap-scan.png)
+![Nmap Scan](nmap%20scan.png)
 ---
 
 ## 🧠 Analysis
