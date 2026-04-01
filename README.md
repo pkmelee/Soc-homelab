@@ -26,7 +26,7 @@ Command used: nmap 192.168.56.101
 - Indicates presence of firewall protections on the Windows host
 ### Screenshot
 
-![Nmap Scan](screenshots/nmap scan.png)
+![Nmap Scan](screenshots/nmap-scan.png)
 ---
 
 ## 🧠 Analysis
