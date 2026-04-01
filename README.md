@@ -30,10 +30,11 @@ Command used: nmap 192.168.56.101
 
 ## 🧠 Analysis
 
-The Nmap scan revealed exposed services commonly present in Windows environments.  
-These services can be potential targets for attackers if not properly secured.
+The Nmap scan indicated that all ports were in a filtered/no-response state.
 
-This demonstrates how reconnaissance is performed as an initial step in cyber attacks.
+This suggests that the Windows host is protected by a firewall, preventing external visibility of services.
+
+This behavior demonstrates how defensive controls can limit reconnaissance efforts and reduce an attacker's ability to identify exposed services.
 
 ---
 
