@@ -30,7 +30,7 @@ All 1000 scanned ports on 192.168.56.101 are in ignored states.
 Not shown: 1000 filtered tcp ports (no-response)
 \`\`\`
 
-![Nmap scan output](screenshots/nmap-scan.png)
+![Nmap scan output](screenshots/nmap scan.png)
 
 ## Analysis
 All 1000 ports returned `filtered/no-response`, meaning Windows Defender Firewall silently dropped the SYN packets without replying. From an attacker perspective, the host appears effectively invisible at the TCP layer — no service fingerprinting possible without additional techniques.
