@@ -23,7 +23,6 @@ nmap 192.168.56.101
 ```
 
 ### 2. Results
-\`\`\`
 Nmap scan report for 192.168.56.101
 Host is up (0.00072s latency).
 All 1000 scanned ports on 192.168.56.101 are in ignored states.
