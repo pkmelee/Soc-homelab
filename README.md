@@ -18,9 +18,9 @@ Hands-on network reconnaissance against a hardened Windows host using Kali Linux
 
 ### 1. Reconnaissance
 Ran a default TCP scan against the Windows target:
-\`\`\`bash
+```bash
 nmap 192.168.56.101
-\`\`\`
+```
 
 ### 2. Results
 \`\`\`
